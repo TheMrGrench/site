@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5em;
+        }
+        .contact {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact li {
+            margin: 0.5em 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Victor's Personal Webpage</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hi, my name is Victor. I am an aspiring data analyst from Ukraine with a keen interest in Python, SQL, and machine learning. I aim to enhance analytics and processes, as well as automate tasks in various fields, particularly in customer service, currency exchange, and cryptocurrency.</p>
+        </div>
+
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+                <li>Financial Metrics</li>
+                <li>Marketing Analytics</li>
+            </ul>
+        </div>
+
+        <div class="section" id="projects">
+            <h2>Projects</h2>
+            <p>Here are some projects I have worked on:</p>
+            <ul>
+                <li><strong>Project 1:</strong> Customer Service Analytics Improvement</li>
+                <li><strong>Project 2:</strong> Automated Currency Exchange Analysis</li>
+                <li><strong>Project 3:</strong> Cryptocurrency Market Trends Prediction</li>
+            </ul>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Me</h2>
+            <ul class="contact">
+                <li>Email: <a href="mailto:victor@example.com">victor@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/victor">linkedin.com/in/victor</a></li>
+                <li>GitHub: <a href="https://github.com/victor">github.com/victor</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
